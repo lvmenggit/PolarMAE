@@ -5,7 +5,7 @@ PolarMAE is a fetal ultrasound self-supervised pre-training project based on MAE
 ## News
 
 - 2026-04-17: Added the public project workflow, dependency file, and private-path-safe usage examples.
-
+- 2026-04-17: Released the official implementation code for our paper "PolarMAE". 
 ## Paper
 
 - arXiv: (https://doi.org/10.48550/arXiv.2604.15893)
