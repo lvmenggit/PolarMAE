@@ -1,0 +1,51 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Training outputs and logs
+output/
+outputs/
+output_dir/
+work_dirs/
+runs/
+logs/
+*.log
+events.out.tfevents.*
+
+# Checkpoints and model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+pretrained/
+
+# Generated bucket/cache files
+bucket_files/
+*.npy
+valid_cnt.npy
+valid_cnt_index.npy
+valid_bucket.npy
+valid_bucket_counts.txt
+*.npz
+*.pkl
+
+# Local datasets and temporary OpenMMLab artifacts
+data/
+datasets/
+.dist_test/
